@@ -6,7 +6,7 @@
 
  <!-- Definition for textEditor bean -->
  <bean id="textEditor" class="com.baeldung.TextEditor">
-  <property name="spellChecker" ref="spellChecker" />
+  <constructor-arg ref="spellChecker" />
  </bean>
 
  <!-- Definition for spellChecker bean -->
